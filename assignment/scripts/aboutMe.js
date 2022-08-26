@@ -15,7 +15,7 @@
 // Refer back to the videos if you need help with this one.
     console.log('My name is', fullName, 'and I think', luckyNumber, 'is a winner');
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-    let adventurous = true;
+    let adventurous = false;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
     let food = 'Chicken Stir Fry';
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
@@ -60,6 +60,7 @@
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
+
 pets = 2;
 friendsPets = 5;  
 let mostPets;
@@ -69,13 +70,15 @@ let mostPets;
     mostPets = friendsPets
   }
   console.log(mostPets);
+
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
 //      "Second is the best" if your lucky number is 2
 //      "Third is the one with the polka dot dress" if your lucky number is 3
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
-const luckyNumber2 = 3;
+
+const luckyNumber2 = 5;
 switch (luckyNumber2) {
     case 1:
         console.log("First is the worst");
@@ -87,9 +90,11 @@ switch (luckyNumber2) {
         console.log("Third is the one with the polka dot dress");
     break;
     default:
-        console.log("Luck is what happens when preparatin meets opportunity");
+        console.log("Luck is what happens when preparation meets opportunity");
 
 }
+
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-
+let result = adventurous ? "Adventures are great": "How about we stay home?";
+console.log(result);

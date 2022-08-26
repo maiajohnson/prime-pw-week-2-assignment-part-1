@@ -60,7 +60,15 @@
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
-
+pets = 2;
+friendsPets = 5;  
+let mostPets;
+  if (pets > friendsPets) {
+    mostPets = pets
+  } else if (friendsPets > pets) {
+    mostPets = friendsPets
+  }
+  console.log(mostPets);
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
 //      "Second is the best" if your lucky number is 2
